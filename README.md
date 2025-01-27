@@ -20,4 +20,4 @@ Este proyecto web responsivo es diseñado para contar historias visuales y textu
 
 ## Enlace a GitHub Pages
 
-URL:
+URL: https://hcarloscb.github.io/web_project_homeland/
