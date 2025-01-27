@@ -1,0 +1,50 @@
+body {
+  background-color: #2a2c2f;
+}
+
+.page {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__header {
+  padding-top: 34px;
+  max-width: 254.84px;
+}
+
+.page__footer {
+  padding-bottom: 24px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__header {
+    max-width: 254px;
+    padding-top: 30px;
+  }
+
+  .page__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page__footer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__header {
+    max-width: 188px;
+    padding-top: 20px;
+  }
+
+  .page__footer {
+    margin-top: 64px;
+  }
+}
